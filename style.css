@@ -1,0 +1,404 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* CONTAINER */
+
+.corder {
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+  width: 25%;
+
+  margin-top: 120px;
+  margin: 40px 490px;
+  border: 3px solid rgb(20, 174, 245);
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+}
+
+.midform {
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+  display: flex;
+  margin-top: 120px;
+  margin: 40px 490px;
+  border: 3px solid rgb(20, 174, 245);
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+}
+
+.paytext {
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+  margin-top: 120px;
+  margin: 40px 490px;
+  border: 3px solid rgb(20, 174, 245);
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+}
+
+.paytext #payword {
+  text-align: left;
+}
+
+/* TEXT OF PAGE */
+
+.formseat {
+  border-radius: 15px;
+  position: relative;
+  align-items: center;
+  width: 25%;
+
+  margin-top: 120px;
+  margin: 40px 490px;
+  border: 3px solid rgb(20, 174, 245);
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+}
+
+.indtext {
+  font-family: "Arvo", sans-serif;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(231, 227, 227, 0.616);
+  text-align: center;
+  font-weight: bold;
+  height: 100%;
+}
+
+.helptext {
+  font-family: "Arvo", sans-serif;
+  margin: auto;
+  margin-top: 100px;
+  border: 3px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: rgb(231, 227, 227);
+  text-align: center;
+  width: 50%;
+}
+
+.helptext #callcentext {
+  color: black;
+}
+
+.helptext #garishelp {
+  border: 1px solid rgb(20, 174, 245);
+}
+/* FORM */
+.helpexp {
+  text-align: left;
+  padding-left: 20px;
+}
+.input {
+  border-radius: 15px;
+  width: 50;
+  justify-content: center;
+  display: flex;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: solid white;
+  border: 3px solid rgba(255, 255, 255, 0.658);
+}
+
+/* SIMPLE WORLD  */
+
+#sapa_atas {
+  padding-top: 0%;
+  color: rgb(20, 174, 245);
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.sapasukses {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: #fff;
+  width: 50%;
+}
+
+.sapasukses #logsucces {
+  margin-top: 20px;
+  width: 50px;
+}
+
+.okelah {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: #fff;
+  width: 50%;
+}
+
+.okelah #inta {
+  margin-left: 10px;
+  text-align: left;
+}
+.okelah #tickprice {
+  margin-left: 90px;
+  text-align: left;
+}
+
+#sambutan {
+  text-align: center;
+}
+
+/* IMAGE */
+
+#ihelp {
+  padding-top: 20px;
+  width: 90px;
+}
+
+/* BUTTON */
+#submitawal {
+  border-radius: 15px;
+  background-color: rgb(20, 174, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0;
+}
+
+#dapatkan {
+  border-radius: 15px;
+  background-color: rgb(20, 174, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+}
+
+.con_selectbt {
+  display: flex;
+  justify-content: center;
+}
+
+#selectseat_bt {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgb(20, 174, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  align-self: center;
+}
+
+/* NAVBAR */
+nav {
+  background-color: rgb(20, 174, 245);
+  height: 40px;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  font-family: "Arvo", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Arvo", sans-serif;
+}
+
+li {
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  font-family: "Arvo", sans-serif;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: rgb(2, 6, 252);
+  color: #fff;
+}
+
+/* Styles for the footer */
+footer {
+  font-family: "Arvo", sans-serif;
+  margin: auto;
+  background-color: rgb(20, 174, 245);
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
+
+/* .footer-content {
+        display: flex;
+        flex-direction: column;
+      } */
+
+.alias,
+.email {
+  font-family: "Arvo", sans-serif;
+  margin: 5px 0;
+}
+.hide {
+  font-family: "Arvo", sans-serif;
+  display: none;
+}
+.message {
+  font-family: "Arvo", sans-serif;
+  margin-top: 20px;
+}
+
+.message:hover + .hide {
+  font-family: "Arvo", sans-serif;
+  display: block;
+  color: red;
+}
+
+#tombols {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: rgb(20, 174, 245);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  align-self: center;
+}
+
+.okelah #garishelp {
+  border: 1px solid rgb(20, 174, 245);
+}
+
+.garishelp {
+  border: 1px solid rgb(20, 174, 245);
+}
+
+.sudahbeli {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: white;
+  width: 70%;
+}
+
+.sudahbeli #yesword {
+  color: black;
+}
+
+.sapabeli {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 5px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: #fff;
+  width: 50%;
+}
+
+.sapabeli #tickword {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.inicredit {
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid rgb(20, 174, 245);
+  border-radius: 15px;
+  background-color: #fff;
+  width: 80%;
+}
+
+div.scrollcon {
+  background-color: lightgrey;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scrollcon img {
+  padding: 10px;
+}
